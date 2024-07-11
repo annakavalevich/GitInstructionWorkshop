@@ -55,7 +55,7 @@ Git is a distributed version control system designed to handle everything from s
 
 ### **Switch Branches:**
 
-git checkout <branch-name>
+**git checkout <branch-name>**
 
 > Switches to an existing branch.
 
