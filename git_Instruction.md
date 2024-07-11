@@ -4,13 +4,16 @@
 
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It helps you track changes in your files and coordinate work on those files among multiple people.
 
-[Coding_img](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Coding_img](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## **Purpose of Git:**
 
 **Version Control**: Track changes in your project files over time.
+
 **Collaboration**: Work with multiple people on a project, merging changes and resolving conflicts.
+
 **Backup**: Keep a history of your project that can be restored to previous states if needed.
+
 **Branching and Merging**: Experiment with different features or fixes in isolated branches and merge them back into the main project when ready.
 
 ## **Basic Git Commands**:
@@ -31,8 +34,8 @@ Git is a distributed version control system designed to handle everything from s
 
 ### **Commit Changes:**
 
-1.**git commit -m "Commit message"**
-Records changes to the repository with a descriptive message.
+1. **git commit -m "Commit message"**
+   Records changes to the repository with a descriptive message.
 
 ### **Push Changes:**
 
@@ -41,8 +44,8 @@ Records changes to the repository with a descriptive message.
 
 ### **Pull Changes:**
 
-1 **git pull origin <branch-name>**
-Fetches and integrates changes from a remote repository to your local branch.
+1. **git pull origin <branch-name>**
+   Fetches and integrates changes from a remote repository to your local branch.
 
 ### **Create a New Branch:**
 
@@ -53,24 +56,28 @@ Fetches and integrates changes from a remote repository to your local branch.
 ### **Switch Branches:**
 
 **git checkout <branch-name>**
-Switches to an existing branch.
+
+> Switches to an existing branch.
 
 ### **Merge Branches:**
 
 1. **git checkout <target-branch>**
 2. **git merge <source-branch>**
+
    Combines changes from one branch into another.
 
 ### **View Commit History:**
 
 **git log**
-Displays the commit history for the repository.
+
+> Displays the commit history for the repository.
 
 ## **Additional Git Commands:**
 
 ### **View Differences:**
 
 **git diff**
+
 Shows changes between commits, commit and working tree, etc.
 
 ### **Undo Local Changes:**
