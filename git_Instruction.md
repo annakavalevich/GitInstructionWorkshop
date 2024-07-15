@@ -95,6 +95,56 @@ Shows changes between commits, commit and working tree, etc.
 1. **git stash** (Save changes for later)
 2. **git stash apply** (Reapply stashed changes)
 
+### **Clone a Repository**
+
+To clone a repository, use:
+**git clone <repository-url>**
+
+### **Add a Remote Repository**
+
+To add a new remote repository, use:
+**git remote add <remote-name> <repository-url>**
+
+### **View Remote Repositories**
+
+To list all remote repositories, use:
+**git remote -v**
+
+### **Fetch Updates from Remote**
+
+To fetch updates from a remote repository without merging, use:
+**git fetch <remote-name>**
+
+### **Pull Changes from Remote**
+
+To fetch and merge changes from the remote repository, use:
+**git pull <remote-name> <branch-name>**
+
+### **Push Changes to Remote**
+
+To push your local changes to the remote repository, use:
+**git push <remote-name> <branch-name>**
+
+### **Remove a Remote Repository**
+
+To remove a remote repository, use:
+**git remote remove <remote-name>**
+
+### **Rename a Remote Repository**
+
+To rename a remote repository, use:
+**git remote rename <old-name> <new-name>**
+
+### **View Remote Branches**
+
+To see all branches in the remote repository, use:
+**git branch -r**
+
+### **Track a Remote Branch**
+
+To start tracking a remote branch, use:
+**git checkout --track <remote-name>/<branch-name>**
+
 # **Conclusion**
 
 Git is an essential tool for modern software development, providing robust version control and facilitating seamless collaboration among developers. By mastering these basic commands and concepts, you can efficiently manage your projects, track changes, and work effectively with team members. Whether working on small personal projects or large-scale professional applications, Git ensures your workflow remains organized and productive.
