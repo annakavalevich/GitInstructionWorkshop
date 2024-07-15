@@ -97,52 +97,62 @@ Shows changes between commits, commit and working tree, etc.
 
 ### **Clone a Repository**
 
-To clone a repository, use:
+> To clone a repository, use:
+
 **git clone <repository-url>**
 
 ### **Add a Remote Repository**
 
-To add a new remote repository, use:
+> To add a new remote repository, use:
+
 **git remote add <remote-name> <repository-url>**
 
 ### **View Remote Repositories**
 
-To list all remote repositories, use:
+> To list all remote repositories, use:
+
 **git remote -v**
 
 ### **Fetch Updates from Remote**
 
-To fetch updates from a remote repository without merging, use:
+> To fetch updates from a remote repository without merging, use:
+
 **git fetch <remote-name>**
 
 ### **Pull Changes from Remote**
 
-To fetch and merge changes from the remote repository, use:
+> To fetch and merge changes from the remote repository, use:
+
 **git pull <remote-name> <branch-name>**
 
 ### **Push Changes to Remote**
 
-To push your local changes to the remote repository, use:
+> To push your local changes to the remote repository, use:
+
 **git push <remote-name> <branch-name>**
 
 ### **Remove a Remote Repository**
 
-To remove a remote repository, use:
+> To remove a remote repository, use:
+
 **git remote remove <remote-name>**
 
 ### **Rename a Remote Repository**
 
-To rename a remote repository, use:
+> To rename a remote repository, use:
+
 **git remote rename <old-name> <new-name>**
 
 ### **View Remote Branches**
 
-To see all branches in the remote repository, use:
+> To see all branches in the remote repository, use:
+
 **git branch -r**
 
 ### **Track a Remote Branch**
 
-To start tracking a remote branch, use:
+> To start tracking a remote branch, use:
+
 **git checkout --track <remote-name>/<branch-name>**
 
 # **Conclusion**
